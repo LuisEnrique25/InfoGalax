@@ -37,6 +37,6 @@
     grid-template-rows: auto 1fr auto;
     align-items: center;
     justify-items: center;
-    width: min(100%, 300px);
+    width: min(100%, 400px);
     padding: 0 10px;
 }
