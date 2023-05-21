@@ -1,6 +1,18 @@
 .title__container{
     position: relative;
-    top: 150px;
+    top: 50px;
     color: white;
-    font-size: 1.5rem;
+    transition: all .3s ease-in-out;
+}
+
+@media (max-height: 515px) {
+    .title__container{
+        top: 10px;
+    } 
+}
+
+@media (max-width: 375px) {
+    .title__container{
+        top: 10px;
+    }
 }

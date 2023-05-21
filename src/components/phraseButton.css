@@ -8,6 +8,8 @@
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.25) 100%);
     padding: 1.5rem;
     border-radius: 1rem;
+    transition: all .3s ease-in-out;
+
 }
 .btn__reload{
     display: flex;
@@ -27,3 +29,10 @@
     color: #aaa6a6;
     box-shadow: 0 0 5px 5px #525151;
 }
+
+@media (max-width: 375px) {
+    .phrase__container{
+        padding: 0.8rem;
+    }
+}
+

@@ -1,3 +1,9 @@
+:root{
+  --medium-font:1.5rem;
+  --normal-font: 1rem;
+  --small-font: 0.8rem;
+}
+
 html{
   box-sizing: border-box;
 }
@@ -10,6 +16,8 @@ html{
 body{
   margin: 0;
   font-family: 'Share Tech Mono', monospace;
+  transition: all .3s ease-in-out;
+
 }
 
 h1, 
@@ -24,4 +32,23 @@ h6{
 
 img{
   max-width: 100%;
+}
+
+h1{
+  font-size: var(--medium-font);
+}
+
+p{
+  font-size: var(--normal-font);
+}
+footer{
+  font-size: var(--small-font);
+}
+
+@media (min-width: 900px) {
+    :root{
+      --medium-font:1.75rem;
+      --normal-font: 1.5rem;
+      --small-font: .9rem;
+    }
 }
