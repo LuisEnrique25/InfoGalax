@@ -1,0 +1,42 @@
+.app{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    justify-items: center;
+}
+
+.app.bg1{
+    background-image: url(/public/images/bg1.webp);
+}
+.app.bg2{
+    background-image: url(/public/images/bg2.webp);
+}
+.app.bg3{
+    background-image: url(/public/images/bg3.webp);
+}
+.app.bg4{
+    background-image: url(/public/images/bg4.webp);
+}
+.app.bg5{
+    background-image: url(/public/images/bg5.webp);
+}
+.app.bg6{
+    background-image: url(/public/images/bg6.webp);
+}
+.app.bg7{
+    background-image: url(/public/images/bg7.webp);
+}
+.app.bg8{
+    background-image: url(/public/images/bg8.webp);
+}
+
+.app__container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-items: center;
+    width: min(100%, 300px);
+    padding: 0 10px;
+}
