@@ -3,9 +3,10 @@
     top: 50px;
     color: white;
     transition: all .3s ease-in-out;
+    margin-bottom: 15px;
 }
 
-@media (max-height: 515px) {
+@media (max-height: 550px) {
     .title__container{
         top: 10px;
     } 

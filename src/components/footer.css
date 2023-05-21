@@ -9,5 +9,7 @@
     align-items: flex-end ;
     padding-bottom: 20px;
     text-align: center;
+    margin-top: 25px;
+    transition: all .3s ease-in-out;
 }
 

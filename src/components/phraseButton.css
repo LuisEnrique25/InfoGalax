@@ -9,8 +9,14 @@
     padding: 1.5rem;
     border-radius: 1rem;
     transition: all .3s ease-in-out;
-
+    max-height: 200px;
+    font-size: 1.2rem;
 }
+
+.small_font{
+    font-size: 1rem;
+}
+
 .btn__reload{
     display: flex;
     justify-content: center;
@@ -33,6 +39,15 @@
 @media (max-width: 375px) {
     .phrase__container{
         padding: 0.8rem;
+    }
+}
+
+@media (max-width: 310px) {
+    .phrase__container{
+        padding: .2rem;
+    }
+    .small_font{
+        font-size: .8rem;
     }
 }
 
